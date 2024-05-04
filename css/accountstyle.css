@@ -1,0 +1,458 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik";
+    background-color:#efb64d;
+}
+
+.menu-wrapper{
+    display: flex;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.main-wrapper{
+    /*margin: 10px;*/
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+}
+
+.desktop{
+    display: none;
+}
+
+.icons{
+    height: 2.5em;
+}
+
+.menu-popup{
+    display: none;
+}
+
+.menu-popup div:first-child{
+    position: fixed;
+    bottom: 93%;
+    left: 80%;
+    /*top: -17rem;*/
+    margin-left: auto;
+    margin-right: 2rem;
+    cursor: pointer;
+
+}
+
+.menu-popup div:nth-child(2){
+    font-size: 1.5rem;
+}
+/*.menu h1{*/
+    /*cursor: pointer;*/
+/*}*/
+
+.menu acc,
+.menu hm{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.menu a {
+    color: #fff;
+    /*cursor: pointer;*/
+}
+
+#menu-btn{
+    cursor: pointer;
+}
+
+
+/*Profile icon section*/
+
+.body-section{
+    width: 100%
+}
+
+.profile-icon .icon img{
+    width: 12rem;
+}
+
+.profile-icon .edit-section{
+    display: flex;
+}
+
+.profile-icon .edit-section img{
+    width: 1rem;
+}
+
+.profile-icon p{
+    font-size: 24px;
+}
+
+.profile-icon{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden{
+    display:none;
+}
+
+.icon{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon button{
+    outline:none;
+    border-style: none;
+    width: 13rem;
+    height: 2.5rem;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 30px;
+    margin-top: .8rem;
+    background-color: #E68234;
+    color: #fff;
+    opacity: .78;
+    margin-bottom: -.1rem;
+}
+
+.edit-section p{
+    font-size: 18px;
+    color:#C83434;
+    opacity: .78
+}
+
+
+/*Form section*/
+
+/*.inputs{*/
+    /*width: 100%;*/
+/*}*/
+form{
+    width: 100%;
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.input-form div:first-child,
+.input-form div:nth-child(2),
+.input-form div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /*margin-bottom: 1rem;*/
+}
+
+.first-section,
+.second-section{
+    margin-bottom: 2rem
+}
+
+.first-section label,
+.second-section label,
+.third-section label{
+    color: #E4751E;
+    opacity: .88;
+    margin-right: auto;
+    margin-left: 10%;
+    /*width: 80%*/
+}
+
+.first-section input,
+.second-section input,
+.third-section input{
+    width: 80%;
+    height: 3rem;
+    border-radius: 25px;
+    border-style: none;
+    padding-left: 2rem;
+    font-size: 20px;
+    background-color: #DD9818;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+::placeholder{
+    color: #FFFFFF;
+    opacity: .50;
+}
+
+.email-authentication{
+    margin-top: 2rem;
+}
+
+.email-authentication h1{
+    color: #C83434;
+    font-size: 18px
+}
+
+.confirmation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: space-around;*/
+    background-color: #D79316;
+    width: 100%;
+    height: 8rem
+    /*postion: absolute;*/
+    /*bottom: 100%*/
+}
+
+.confirmation img{
+    width: 2rem;
+    
+}
+
+/*.confirmation img:first-child{*/
+    /*margin-right: auto;*/
+/*}*/
+
+.confirmation button{
+   width: 8rem;
+   height: 4rem;
+   padding: .5rem;
+   border-radius: 10px;
+   margin-right: auto;
+   margin-left: auto;
+   outline: none;
+   border-style: none;
+}
+
+.confirmation button:nth-child(2){
+    background-color: #C83434;
+    opacity: .78;
+}
+
+.cancel{
+    background-color: #ffffff;
+    opacity: .78;
+}
+
+/*Media querries here*/
+@media screen and (min-width:600px){
+    /*.first-section,*/
+    /*.second-section{*/
+        /*margin-bottom: 0;*/
+    /*}*/
+    #first-class{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .third-section input{
+        width: 90%;
+    }
+
+    .third-section label{
+        margin-left: 5%;
+    }
+
+    .first-sub-section{
+        margin-bottom:1rem;
+    }
+}
+
+@media screen and (min-width:800px){
+    .main-wrapper{
+        padding-left: .5rem;
+    }
+    .body-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem
+    }
+
+    .desktop{
+        display: flex;
+    }
+    .head{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .head img:first-child,
+    .head img:nth-child(2){
+        margin-right: 2rem
+    }
+
+    .profile-icon{
+        margin-top: -6rem 
+    }
+    .email-authentication h1{
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .main-wrapper{
+        padding-left: .5rem;
+    }
+    .profile-icon .icon img{
+        width: 15rem;
+    }
+    /*.profile-icon button{*/
+        /*font-size:20px;*/
+        /*width: 14rem;*/
+        /*height: 3rem; */
+    /*}*/
+    .first-section input,
+    .second-section input,
+    .third-section input{
+       font-size: 28px;
+       height: 3rem;
+    }
+
+    .first-section label,
+    .second-section label,
+    .third-section label{
+        font-size: 22px;
+    }
+
+    .first-section input{
+        width: 70%;
+    }
+    /*.profile-icon p{*/
+        /*font-size: 2rem*/
+    /*}*/
+}
+
+@media screen and (min-width:1200px){
+    .profile-icon .icon img{
+        width: 20rem;
+    }
+    
+    .first-section input,
+    .second-section input,
+    .third-section input{
+       font-size: 30px;
+       height: 4.5rem;
+    }
+
+    .profile-icon p{
+        font-size: 30px;
+    }
+    .edit-section img{
+        width: 12rem;
+    }
+    .profile-icon button{
+        font-size:24px;
+        width: 18rem;
+        height: 3rem; 
+    }
+    
+    .first-section label,
+    .second-section label,
+    .third-section label{
+        font-size: 22px;
+    }
+
+    .email-authentication h1{
+        font-size: 30px;
+    }
+
+    .first-section input{
+        width: 70%;
+    }
+    .head img:first-child,
+    .head img:nth-child(2){
+        margin-right: 10rem
+    }
+}
+
+@media screen and (min-width:1400px){
+    .profile-icon .icon img{
+        width: 23rem;
+    }
+    
+    .first-section input,
+    .second-section input,
+    .third-section input{
+       font-size: 38px;
+       height: 5rem;
+    }
+
+    .profile-icon p{
+        font-size: 30px;
+    }
+    .edit-section img{
+        width: 12rem;
+    }
+    .profile-icon button{
+        font-size:24px;
+        width: 18rem;
+        height: 3rem; 
+    }
+    
+    .first-section label,
+    .second-section label,
+    .third-section label{
+        font-size: 22px;
+    }
+
+    .email-authentication h1{
+        font-size: 30px;
+    }
+
+    .first-section input{
+        width: 70%;
+    }
+    .head img:first-child,
+    .head img:nth-child(2){
+        margin-right: 10rem
+    }
+}
+
+@media screen and (min-width:1600px){
+    .profile-icon .icon img{
+        width: 25rem;
+    }
+    
+    .first-section input,
+    .second-section input,
+    .third-section input{
+       font-size: 38px;
+       height: 5rem;
+    }
+
+    .profile-icon p{
+        font-size: 37px;
+    }
+    .edit-section img{
+        width: 12rem;
+    }
+    .profile-icon button{
+        font-size:25px;
+        width: 18rem;
+        height: 4rem; 
+    }
+    
+    .first-section label,
+    .second-section label,
+    .third-section label{
+        font-size: 30px;
+    }
+
+    .email-authentication h1{
+        font-size: 30px;
+    }
+
+    .first-section input{
+        width: 70%;
+    }
+    .head img:first-child,
+    .head img:nth-child(2){
+        margin-right: 10rem
+    }
+}
+
+

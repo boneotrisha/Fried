@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Kylle's | Accounts</title> 
+    <link rel="stylesheet" href="/css/accountstyle.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,700;0,800;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu-popup">
+        <div class="exit">
+            <h1>X</h1>
+        </div>
+        <div class="menu">
+            <h1><a class="hm" href="index.html">Home</a></h1>
+            <h1>Services</h1> 
+            <h1><a class="acc" href="accounts.html">Accounts</a></h1>
+            <h1>Contact Us</h1> 
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+
+        <!--Header icons -->
+
+        <div class="menu-wrapper">
+            
+            <div class="head">
+                <img src="/icons/menu.svg" id="menu-btn" class="icons">
+                <img src="/icons/account.svg" class="icons desktop">
+                <img src="/icons/add_cart.svg" class="icons desktop">
+            </div>
+        
+        </div> 
+
+        <div class="body-section">
+
+            <div class="profile-icon">
+
+                <div class="icon">
+                    <img src="/images/profile_pic.svg">
+                    <button class="google">Connect to google</button>
+                </div>
+
+                <div class="edit-section">
+                    <img src="/icons/edit.svg">
+                    <p>Edit</p>
+                </div>  
+
+            </div>
+
+            <div class="form"> 
+
+                <div class="inputs">
+
+                    <h1 class="top-label hidden">My Profile</h1>
+                    <form class="input-form">
+
+                        <div id="first-class" class="first-section-casing">
+                            <div class="first-section">
+
+                                <div class="first-sub-section">
+                                    <div>
+                                        <label for="first-name">FIRST NAME</label>
+                                    </div>
+                                    <div>
+                                        <input id="first-name" type="text" placeholder="John">
+                                    </div>
+                                </div>
+
+                                <div class="second-sub-section">
+                                    <div>
+                                        <label for="last-name">LAST NAME</label>
+                                    </div>
+                                    <div>
+                                        <input id="last-name" type="text" placeholder="Doe">
+                                    </div>
+                                </div>
+
+                            </div>
+                        
+                            <!--Personal information section-->
+                            <div class="second-section">
+
+                                <div class="first-sub-section">
+                                    <div>
+                                        <label for="location">LOCATION</label>
+                                    </div>
+                                    <div>
+                                        <input id="location" type="text" placeholder="Bungtod Bogo, City">
+                                    </div>
+                                </div>
+
+                                <div class="second-sub-section">
+                                    <div>
+                                        <label for="contact-number">CONTACT NUMBER</label>
+                                    </div>
+                                    <div>
+                                        <input id="contact-number" type="text" placeholder="0905-555-8888">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                       
+                        <!--email here-->
+                        <div class="third-section">
+                            <div>
+                                <label for="email">EMAIL</label>
+                            </div>
+                            <div>
+                                <input id="email" type="email" placeholder="johndoe@email.com">
+                            </div>
+                        </div>
+                        
+
+                        <!--Authentication here-->
+                        <div class="email-authentication">
+                            <h1>Authentication will be sent to:</h1>
+                            <p id="email-recipient"></p>
+                        </div>
+                    
+                        
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!--Confirmation prompt here-->
+    <div class="confirmation">
+    <!--<img src="static/images/logo.svg">-->
+        <button class="cancel" type="button"><img src="/icons/cancel.svg"></button>
+        <button class="continu" type="button"><img src="/icons/continue.svg"></button>
+    </div>   
+    <script src="/js/accountscript.js"></script>
+</body>
+</html>

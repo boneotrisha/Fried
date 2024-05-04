@@ -1,0 +1,1506 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efb64d; 
+    /*padding:15px;*/
+    font-family: "Rubik"
+}
+
+/*.menu-wrapper img{*/
+    /*margin-left:auto;*/
+/*}*/
+
+.menu-wrapper{
+    display: flex;
+    margin-right: auto;
+}
+
+.main-wrapper{
+    /*margin: 10px;*/
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desktop{
+    display: none;
+}
+
+.icons{
+    height: 2.5em;
+}
+
+
+
+.head {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    position: relative;
+    top: .5rem;
+    left: .5rem;
+}
+
+/*.head img{*/
+    /*margin-right: auto;*/
+/*}*/
+
+.banner img{
+    max-width:25em; 
+    min-width:30px;
+    margin-left:60px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.banner h1{
+    font-size:4em;
+}
+
+.banner h1:first-child{
+    margin-bottom: 1rem;
+}
+
+.banner h1:nth-child(2){
+    margin-bottom:0rem;
+}
+
+.banner{
+    color: #c83434;
+    line-height:0px;
+}
+
+.banner button{
+    background-color: #e68234;
+    border-radius: 50px;
+    border-style: none;
+    /*width: 20rem;*/
+    filter: drop-shadow(0px 5px 2px #b4893b);
+    min-width: 18rem;
+    font-size: 2.5rem;
+    line-height:4rem;
+    font-weight: 800;
+    font-family: rubik;
+    color:#ffffff;
+    margin-top: -1.4rem;
+}
+.banner button:hover{
+    background-color: #C83434;
+    color: #FFCE0F;
+}
+
+.banner h1{
+    font-weight: 900;
+}
+
+.banner a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.banner a:hover{
+    text-decoration: none;
+    color: #FFCE0F;
+}
+.banner-image{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+    align-items: center;
+    border-radius: 30px;
+    background-color: #C83434;
+    padding: 10px;
+    display: flex;
+    margin-top: 5rem;
+    min-width: 5rem;
+    /*max-width: 20rem;*/
+}
+
+.banner-image img{
+    margin-top: 1rem;
+    max-width: 23rem;
+    min-width: 5rem;
+    /*max-width: 28rem;*/
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.card-slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#DD9818;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.card-slide img{
+    max-width: 8rem;
+    min-width: 5rem;
+    margin: 1rem;
+}
+
+.card-slide h1{
+    margin-bottom: auto;
+    margin-top: auto;
+    color: #ffffff;
+}
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFCE0F;
+    color: #C83434;
+    /*line-height: 0.25px;*/
+    border-radius: 25px;
+    margin-top: 2rem;
+}
+
+.offer h2:last-child{
+    color: #000;
+    margin-top: -20px;
+}
+
+.offer img{
+    position: relative;
+    bottom: 2rem;
+    margin-bottom: -4rem;
+}
+
+
+/*.second-banner-image{*/
+    /*margin-top: 7rem;*/
+/*}*/
+
+.short-message{
+    color: #000;
+    font-family: "Montserrat";
+    /*font-weight: bold;*/
+    line-height: 1.5rem;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -5rem;
+    max-width: 23rem
+}
+
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column
+}
+
+.contacts div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+/*.contacts h1{*/
+    /*font*/
+/*}*/
+
+.contacts div h1:first-child{
+    color: #C83434;
+    font-size: 20px;
+    margin-right: .5rem;
+    /*align-items: center;*/
+}
+
+.contacts div h1:last-child{
+    color: #fff;
+    font-size: 20px;
+}
+
+.contacts div:first-child,
+.contacts div:nth-child(2){
+    margin-bottom: -1.5rem; 
+}
+
+.third-section{
+    margin-top: 6rem;
+}
+
+.contacts button{
+    border-radius: 50px;
+    border-style: none;
+    background-color: #E68234;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5rem;
+    filter: drop-shadow(0px 5px 2px #b4893b);
+    margin-bottom: 2rem;
+    font-family: "Rubik"
+}
+
+.contacts button:hover{
+    background-color: #C83434;
+    color: #FFCE0F;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.footer img{
+    width: 3.5rem;
+}
+
+
+.menu-popup{
+    display: none;
+    /*position: absolute;*/
+    /*background-color: #222;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*opacity: 0.95;*/
+
+
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+    /*justify-content: center;*/
+    /*color: #fff;*/
+}
+
+.menu-popup div:first-child{
+    position: fixed;
+    bottom: 93%;
+    left: 80%;
+    /*top: -17rem;*/
+    margin-left: auto;
+    margin-right: 2rem;
+    cursor: pointer;
+
+}
+
+.menu-popup div:nth-child(2){
+    font-size: 1.5rem;
+}
+.menu h1{
+    cursor: pointer;
+}
+
+.menu h1:first-child,
+.menu h1:nth-child(3){
+    text-decoration: underline;
+}
+.menu a {
+    color: #fff;
+}
+
+#menu-btn{
+    cursor: pointer;
+}
+
+/*Media Querries*/
+@media screen and (min-width:500px){
+    .banner h1{
+        font-size: 5rem;
+    }
+
+    .banner img{
+        min-width:27em; 
+    }
+    .banner button{
+        font-size: 3rem;
+        min-width:20rem;
+    }
+    .banner-image img{
+        min-width: 28rem;
+    }
+    .cards{
+        min-width: 28rem; }
+    .card-slide{
+        min-width: 28rem;
+    }
+
+    .contacts button{
+        font-size: 3rem;
+        min-width: 20rem;
+    }
+
+    .short-message{
+        font-size: 30px;
+        line-height: 2rem;
+        min-width: 25rem;
+    }
+    .menu-popup div:first-child{
+        position: fixed;
+        bottom: 93%;
+        left: 80%;
+        margin-left: auto;
+        margin-right: 2rem;
+
+    }
+}
+
+@media screen and (min-width:600px){
+    .banner h1{
+        font-size: 7rem;
+    }
+
+    .banner img{
+        min-width:35em; 
+    }
+    .banner button{
+        font-size: 4rem;
+        min-width:27rem;
+        min-height: 5rem;
+    }
+    .banner-image img{
+        min-width: 30rem;
+    }
+    .cards{
+        min-width: 30rem;
+    }
+    .card-slide{
+        min-width: 30rem;
+    }
+
+    .contacts button{
+        font-size: 3rem;
+        min-width: 27rem;
+        min-height: 5rem
+    }
+
+    .short-message{
+        font-size: 32px;
+        line-height: 3rem;
+        min-width: 27rem;
+    }
+
+    .menu-popup div:first-child{
+        position: fixed;
+        bottom: 93%;
+        left: 90%;
+        margin-left: auto;
+        margin-right: 2rem;
+
+    }
+}
+
+@media screen and (min-width:800px){
+    .desktop{
+        display: flex;
+    }
+    .head{
+        display: flex;
+        flex-direction: row;
+        /*align-items: center;*/
+    }
+    .head img{
+        position: relative;
+        top: .5rem;
+        left: 2rem;
+    }
+    .banner h1{
+        font-size: 4.5rem;
+    }
+    .banner img{
+        min-width:5rem; 
+    }
+    .banner button{
+        font-size: 2rem;
+        min-width:15rem;
+        min-height: 2rem;
+    }
+    .banner-image{
+        min-height: 29rem;
+        border-radius: 0;
+        border-bottom-left-radius: 30px;
+        padding: 2rem;
+    }
+    .banner-image img{
+        min-width: 1rem;
+    }
+    
+    .head img:first-child,
+    .head img:nth-child(2){
+        margin-right: 4rem; 
+    }
+    .first-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: -8rem;
+    }
+    .first-section div:first-child{
+        margin-right: 2rem;
+    }
+    .header{
+        width: 25rem;
+        margin-top: 12rem;
+    }
+
+    .header h1:nth-child(2){
+        margin-right: 5rem
+    }
+
+
+
+    /*Second section -Cards*/
+    .cards{
+        margin-top:5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
+    .card-slide{
+        width: 10rem;
+        height: 7rem;
+        margin-left: -12.8rem;
+        border-radius: 0;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+    .prev-arrow{
+        position: relative;
+        left: 26.9rem;
+        top: 1.5rem;
+    }
+    .next-arrow{
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .card-slide h1{
+        cursor: pointer;
+        font-size: 40px;
+    }
+    .card-slide img{
+        max-width: 8rem;
+        min-width: 5rem;
+        margin-right:3rem;
+    }
+
+    .offer{
+        margin-right: -10rem;
+        height: 6.5rem;
+        width: 15rem;
+    }
+
+    .offer img{
+        position: relative;
+        bottom: 4.5rem;
+        width: 8rem
+    }
+
+    .offer h2{
+        margin-top: -1em;
+        font-size: 20px;
+    }
+    
+
+    /*Third section*/
+    .third-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /*marigin-top: -50rem;*/
+    }
+
+    .third-section div{
+        margin-top: -1rem;
+    }
+
+    .second-banner-image{
+        border-radius: 0px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-left: -0.5rem;
+        /*min-height: 30px;*/
+    }
+
+    .second-banner h1:first-child{
+        margin-right: 1.5rem; 
+    }
+
+    .short-message p{
+        font-size: 25px;
+        line-height:1.9rem;
+        width: 20rem;
+        /*margin-top: -10rem;*/
+        text-align: left;
+        /*margin-right: -10rem;*/
+    }
+
+    .short-message{
+        margin-right: -7rem;
+        /*margin-top: -10rem;*/
+    }
+
+    .second-banner img{
+        margin-bottom: -5rem;
+    }
+
+
+    /*Fourth section*/
+    .fourth-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 4rem;
+        /*justify-content: space-around;*/
+    }
+
+    .contacts div{
+        /*margin-left: -13rem;*/
+        position: relative;
+        left: -7rem;
+    }
+
+    .contacts button{
+        font-size: 30px;
+        line-height: 0px;
+        min-width:15rem;
+        min-height: 4rem;
+    }
+    
+    .card-slide-2{
+        position: relative;
+        border-radius: 0px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        right: -7.3rem;
+        /*margin-right: -rem;*/
+    }
+    
+    .second-prev{
+        position:relative;
+        left:-.1rem;
+    }
+    .second-next{
+        position:relative;
+        left: -26rem;
+    }
+    
+    .card-slide-2 img{
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .desktop{
+        display: flex;
+    }
+    .head{
+        display: flex;
+        flex-direction: row;
+        /*align-items: center;*/
+    }
+    .head img{
+        position: relative;
+        top: .5rem;
+        left: 1rem;
+    }
+    .banner h1{
+        font-size: 6rem;
+    }
+
+    .banner h1:nth-child(2){
+        margin-left: -2rem;
+    }
+    .banner img{
+        min-width:31em; 
+        margin-bottom: -2.5rem;
+    }
+    .banner button{
+        font-size: 2rem;
+        min-width: 15rem;
+        min-height: 2rem;
+    }
+    .banner-image{
+        min-height: 33rem;
+        border-radius: 0;
+        border-bottom-left-radius: 30px;
+        padding: 2rem;
+    }
+    .banner-image img{
+        min-width: 27rem;
+    }
+    
+    .head img:first-child,
+    .head img:nth-child(2){
+        margin-right: 7rem; 
+    }
+    .first-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: -8.5rem;
+    }
+    .first-section div:first-child{
+        /*margin-left: -8rem;*/
+        margin-right: 4rem;
+    }
+    .first-section div:nth-child(2){
+        margin-right: -1.9rem;
+    }
+    .header{
+        width: 25rem;
+        margin-top: 12rem;
+    }
+
+    .header h1:nth-child(2){
+        margin-right: 5rem
+    }
+
+
+
+    /*Second section -Cards*/
+    .cards{
+        margin-top:5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
+    .card-slide{
+        width: 35rem;
+        height: 8rem;
+        margin-left: -18.8rem;
+        border-radius: 0;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+    .prev-arrow{
+        position: relative;
+        left: 30.99rem;
+        top: 1.5rem;
+    }
+    .next-arrow{
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .card-slide h1{
+        cursor: pointer;
+        font-size: 40px;
+    }
+    .card-slide img{
+        /*max-width: 8rem;*/
+        /*min-width: 5rem;*/
+        min-width: 10rem;
+        margin-right:2rem;
+    }
+
+    .offer{
+        margin-right: -13rem;
+        height: 7rem;
+        width: 15rem;
+    }
+
+    .offer img{
+        position: relative;
+        bottom: 4.5rem;
+        width: 8rem
+    }
+
+    .offer h2{
+        margin-top: -1.3em;
+        font-size: 23px;
+        width: 10rem;
+        text-align:center;
+    }
+    
+
+    /*Third section*/
+    .third-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /*marigin-top: -50rem;*/
+    }
+
+    .third-section div{
+        margin-top: -1rem;
+    }
+
+    .second-banner-image{
+        border-radius: 0px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-left: -6.38rem;
+        /*min-height: 30px;*/
+    }
+
+    .second-banner{
+        margin-left: 3rem;
+    }
+
+    .second-banner h1:first-child{
+        margin-right: 2.5rem; 
+    }
+
+    .short-message p{
+        font-size: 29px;
+        line-height:1.9rem;
+        width: 25rem;
+        /*margin-top: -10rem;*/
+        text-align: left;
+        /*margin-right: -10rem;*/
+    }
+
+    .short-message{
+        margin-right: -1rem;
+    }
+
+    .second-banner img{
+        margin-bottom: -5rem;
+        margin-top: -2rem;
+    }
+
+
+    /*Fourth section*/
+    .fourth-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 4rem;
+        /*justify-content: space-around;*/
+    }
+
+    .contacts div{
+        /*margin-left: -13rem;*/
+        position: relative;
+        left: -12rem;
+    }
+
+    .contacts button{
+        font-size: 30px;
+        line-height: 0px;
+        min-width:15rem;
+        min-height: 4rem;
+    }
+    
+    .card-slide-2{
+        position: relative;
+        border-radius: 0px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        right: -12.7rem;
+        /*margin-right: -rem;*/
+    }
+    
+    .second-prev{
+        position:relative;
+        left:-.1rem;
+    }
+    .second-next{
+        position:relative;
+        left: -31rem;
+    }
+    
+    .card-slide-2 img{
+        margin-right: 0.5rem;
+    }
+
+}
+
+
+@media screen and (min-width:1200px){
+    .desktop{
+        display: flex;
+    }
+    .head{
+        display: flex;
+        flex-direction: row;
+        /*align-items: center;*/
+    }
+    .head img{
+        position: relative;
+        top: .5rem;
+        left: 1rem;
+    }
+    .banner h1{
+        font-size: 7rem;
+    }
+
+    .banner h1:nth-child(2){
+        margin-left: -3rem;
+    }
+    .banner img{
+        min-width:37.8em; 
+        margin-bottom: -2.5rem;
+    }
+    .banner button{
+        font-size: 3rem;
+        min-width: 22rem;
+        min-height: 6rem;
+    }
+    .banner-image{
+        min-height: 40rem;
+        border-radius: 0;
+        border-bottom-left-radius: 30px;
+        padding: 2rem;
+    }
+    .banner-image img{
+        min-width: 33rem;
+    }
+    
+    .head img:first-child,
+    .head img:nth-child(2){
+        margin-right: 10rem; 
+    }
+    .first-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: -8.5rem;
+    }
+    .first-section div:first-child{
+        /*margin-left: -8rem;*/
+        margin-right: 6rem;
+    }
+    .first-section div:nth-child(2){
+        margin-right: -6.9rem;
+    }
+    .header{
+        width: 25rem;
+        margin-top: 12rem;
+    }
+
+    .header h1:nth-child(2){
+        margin-right: 5rem
+    }
+
+
+
+    /*Second section -Cards*/
+    .cards{
+        margin-top:5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
+    .card-slide{
+        width: 43rem;
+        height: 11rem;
+        margin-left: -23.9rem;
+        margin-right: 3.5rem;
+        border-radius: 0;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+    .prev-arrow{
+        position: relative;
+        left: 37.99rem;
+        top: 1.5rem;
+    }
+    .next-arrow{
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .card-slide h1{
+        cursor: pointer;
+        font-size: 50px;
+    }
+    .card-slide img{
+        /*max-width: 8rem;*/
+        /*min-width: 5rem;*/
+        min-width: 12rem;
+        margin-right:2rem;
+    }
+
+    .offer{
+        margin-right: -18rem;
+        height: 10rem;
+        width: 17rem;
+    }
+
+    .offer img{
+        position: relative;
+        bottom: 4.5rem;
+        width: 8rem
+    }
+
+    .offer h2{
+        margin-top: -1.3em;
+        font-size: 30px;
+        width: 10rem;
+        text-align:center;
+    }
+    
+
+    /*Third section*/
+    .third-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /*marigin-top: -50rem;*/
+    }
+
+    .third-section div{
+        margin-top: -1rem;
+    }
+
+    .second-banner-image{
+        border-radius: 0px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-left: -5.7rem;
+        height: 45rem;
+    }
+
+    .second-banner{
+        margin-left: 7rem;
+    }
+
+    .second-banner h1:first-child{
+        margin-right: 2.5rem; 
+    }
+
+    .short-message p{
+        font-size: 40px;
+        line-height:2.5rem;
+        width: 25rem;
+        /*margin-top: -10rem;*/
+        text-align: left;
+        /*margin-right: -10rem;*/
+    }
+
+    .short-message{
+        margin-right: -1rem;
+    }
+
+    .second-banner img{
+        margin-bottom: -5rem;
+        margin-top: -2rem;
+    }
+
+
+    /*Fourth section*/
+    .fourth-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 4rem;
+        /*justify-content: space-around;*/
+    }
+
+    .contacts div{
+        /*margin-left: -13rem;*/
+        position: relative;
+        left: -15rem;
+    }
+
+    .contacts button{
+        font-size: 30px;
+        line-height: 0px;
+        min-width:15rem;
+        min-height: 4rem;
+    }
+    
+    .card-slide-2{
+        position: relative;
+        border-radius: 0px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        right: -19.3rem;
+        /*margin-right: -rem;*/
+    }
+    
+    .second-prev{
+        position:relative;
+        left:-.1rem;
+    }
+    .second-next{
+        position:relative;
+        left: -37.5rem;
+    }
+    
+    .card-slide-2 img{
+        margin-right: 0.5rem;
+    }
+}
+
+
+@media screen and (min-width:1400px){
+    .desktop{
+        display: flex;
+    }
+    .head{
+        display: flex;
+        flex-direction: row;
+        /*align-items: center;*/
+    }
+    .head img{
+        position: relative;
+        top: .5rem;
+        left: 1rem;
+    }
+    .banner h1{
+        font-size: 9rem;
+    }
+
+    .banner h1:nth-child(2){
+        margin-left: -5rem;
+    }
+    .banner img{
+        min-width:44em; 
+        margin-bottom: 1rem;
+    }
+    .banner button{
+        font-size: 3rem;
+        min-width: 22rem;
+        min-height: 6rem;
+    }
+    .banner-image{
+        min-height: 50rem;
+        border-radius: 0;
+        border-bottom-left-radius: 30px;
+        padding: 2rem;
+    }
+    .banner-image img{
+        min-width: 39.25rem;
+    }
+    
+    .head img:first-child,
+    .head img:nth-child(2){
+        margin-right: 10rem; 
+    }
+    .first-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: -8.5rem;
+    }
+    .first-section div:first-child{
+        /*margin-left: -8rem;*/
+        margin-right: 11rem;
+    }
+    .first-section div:nth-child(2){
+        margin-right: -7.9rem;
+    }
+    .header{
+        width: 25rem;
+        margin-top: 12rem;
+    }
+
+    .header h1:nth-child(2){
+        margin-right: 5rem
+    }
+
+
+
+    /*Second section -Cards*/
+    .cards{
+        margin-top:5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
+    .card-slide{
+        width: 50rem;
+        height: 11rem;
+        margin-left: -29.9rem;
+        margin-right: 4.5rem;
+        border-radius: 0;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+    .prev-arrow{
+        position: relative;
+        left: 43.5rem;
+        top: 1.5rem;
+    }
+    .next-arrow{
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .card-slide h1{
+        cursor: pointer;
+        font-size: 53px;
+    }
+    .card-slide img{
+        /*max-width: 8rem;*/
+        /*min-width: 5rem;*/
+        min-width: 12rem;
+        margin-right:2rem;
+    }
+
+    .offer{
+        margin-right: -18rem;
+        height: 10.5rem;
+        width: 17rem;
+    }
+
+    .offer img{
+        position: relative;
+        bottom: 4.5rem;
+        width: 8rem
+    }
+
+    .offer h2{
+        margin-top: -1.3em;
+        font-size: 30px;
+        width: 10rem;
+        text-align:center;
+    }
+    
+
+    /*Third section*/
+    .third-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /*marigin-top: -50rem;*/
+    }
+
+    .third-section div{
+        margin-top: -1rem;
+    }
+
+    .second-banner-image{
+        border-radius: 0px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-left: -9rem;
+        height: 50rem;
+    }
+
+    .second-banner{
+        margin-left: 10rem;
+    }
+
+    .second-banner h1:first-child{
+        margin-right: 3rem; 
+    }
+
+    .short-message p{
+        font-size: 40px;
+        line-height:3rem;
+        width: 40rem;
+        /*margin-top: -10rem;*/
+        text-align: left;
+        /*margin-right: -10rem;*/
+    }
+
+    .short-message{
+        margin-right: 10rem;
+    }
+
+    .second-banner img{
+        margin-bottom: -7rem;
+        margin-top: -2rem;
+    }
+
+
+    /*Fourth section*/
+    .fourth-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 4rem;
+        /*justify-content: space-around;*/
+    }
+
+    .contacts div{
+        /*margin-left: -13rem;*/
+        position: relative;
+        left: -15rem;
+        font-size: 50px;
+    }
+
+    .contacts button{
+        font-size: 30px;
+        line-height: 0px;
+        min-width:15rem;
+        min-height: 4rem;
+    }
+    
+    .card-slide-2{
+        position: relative;
+        border-radius: 0px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        right: -25.6rem;
+        /*margin-right: -rem;*/
+    }
+    
+    .second-prev{
+        position:relative;
+        left:-.1rem;
+    }
+    .second-next{
+        position:relative;
+        left: -42.5rem;
+    }
+    
+    .card-slide-2 img{
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1728px){
+    .desktop{
+        display: flex;
+    }
+    .head{
+        display: flex;
+        flex-direction: row;
+        /*align-items: center;*/
+    }
+    .head img{
+        position: relative;
+        top: .5rem;
+        left: 1rem;
+    }
+    .banner h1{
+        font-size: 10rem;
+        /*margin-bottom: -130rem;*/
+    }
+
+    .banner h1:nth-child(2){
+        margin-left: -6rem;
+        margin-top: 9rem;
+    }
+    .banner img{
+        min-width:53em; 
+        margin-bottom: -4rem;
+        /*marigin-top: -500rem;*/
+    }
+    .banner button{
+        font-size: 3rem;
+        min-width: 22rem;
+        min-height: 6rem;
+    }
+    .banner-image{
+        min-height: 54rem;
+        border-radius: 0;
+        border-bottom-left-radius: 30px;
+        padding: 2rem;
+    }
+    .banner-image img{
+        min-width: 50rem;
+    }
+    
+    .head img:first-child,
+    .head img:nth-child(2){
+        margin-right: 10rem; 
+    }
+    .first-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: -9.6rem;
+    }
+    .first-section div:first-child{
+        /*margin-left: -8rem;*/
+        margin-right: 15rem;
+    }
+    .first-section div:nth-child(2){
+        margin-right: -13.7rem;
+    }
+    .header{
+        width: 25rem;
+        margin-top: 12rem;
+    }
+
+    .header h1:nth-child(2){
+        margin-right: 5rem
+    }
+
+
+
+    /*Second section -Cards*/
+    .cards{
+        margin-top:5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
+    .card-slide{
+        width: 65rem;
+        height: 14rem;
+        margin-left: -30rem;
+        margin-right: 12.5rem;
+        border-radius: 0;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+
+    .prev-arrow{
+        position: relative;
+        left: 55.5rem;
+        top: 1.5rem;
+    }
+    .next-arrow{
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .card-slide h1{
+        cursor: pointer;
+        font-size: 60px;
+    }
+    .card-slide img{
+        /*max-width: 8rem;*/
+        /*min-width: 5rem;*/
+        min-width: 15rem;
+        margin-right:2rem;
+    }
+
+    .offer{
+        margin-right: -18rem;
+        height: 13rem;
+        width: 20rem;
+    }
+
+    .offer img{
+        position: relative;
+        bottom: 4.5rem;
+        width: 8rem
+    }
+
+    .offer h2{
+        margin-top: .1rem;
+        font-size: 34px;
+        width: 13rem;
+        text-align:center;
+    }
+    
+
+    /*Third section*/
+    .third-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /*marigin-top: -50rem;*/
+    }
+
+    .third-section div{
+        margin-top: -1rem;
+    }
+
+    .second-banner-image{
+        border-radius: 0px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        margin-left: -14rem;
+        height: 50rem;
+    }
+
+    .second-banner{
+        margin-left: 14.88rem;
+    }
+
+    .second-banner h1:first-child{
+        margin-right: 4rem; 
+        margin-bottom: 1rem;
+    }
+
+    .short-message p{
+        font-size: 40px;
+        line-height:3rem;
+        width: 45rem;
+        /*margin-top: -10rem;*/
+        text-align: left;
+        /*margin-right: -10rem;*/
+    }
+
+    .short-message{
+        margin-right: 17rem;
+    }
+
+    .second-banner img{
+        margin-bottom: -7rem;
+        margin-top: -2rem;
+    }
+
+
+    /*Fourth section*/
+    .fourth-section{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 4rem;
+        /*justify-content: space-around;*/
+    }
+
+    .contacts div{
+        /*margin-left: -13rem;*/
+        position: relative;
+        left: -15rem;
+        font-size: 50px;
+    }
+
+    .contacts button{
+        font-size: 30px;
+        line-height: 0px;
+        min-width:15rem;
+        min-height: 4rem;
+    }
+    
+    .card-slide-2{
+        position: relative;
+        border-radius: 0px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        right: -32.3rem;
+        /*margin-right: -rem;*/
+    }
+    
+    .second-prev{
+        position:relative;
+        left:-.1rem;
+    }
+    .second-next{
+        position:relative;
+        left: -55rem;
+    }
+    
+    .card-slide-2 img{
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1800px){
+    .head img{
+        position: relative;
+        left: 10rem;
+    }
+}
